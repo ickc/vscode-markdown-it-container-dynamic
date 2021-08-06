@@ -1,23 +1,21 @@
 {
-  "name": "markdown-emoji",
+  "name": "vscode-markdown-it-container-dynamic",
   "version": "0.1.0",
-  "displayName": "Markdown Emoji",
-  "description": "Adds emoji syntax support to VS Code's built-in markdown preview",
+  "displayName": "Markdown Dynamic Container",
+  "description": "Plugin for creating block-level dynamic containers for markdown-it markdown parser.",
   "keywords": [
-    "emoji",
     "markdown",
-    "emoticons",
-    "github",
-    "multi-root ready"
+    "markdown-it",
+    "markdown-it-plugin",
+    "pandoc"
   ],
-  "icon": "logo/logox128.png",
-  "publisher": "bierner",
+  "publisher": "ickc",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/ickc/vscode-markdown-emoji.git"
+    "url": "https://github.com/ickc/vscode-markdown-it-container-dynamic.git"
   },
   "bugs": {
-    "url": "https://github.com/ickc/vscode-markdown-emoji/issues"
+    "url": "https://github.com/ickc/vscode-markdown-it-container-dynamic/issues"
   },
   "engines": {
     "vscode": "^1.33.0"
@@ -25,7 +23,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
   "contributes": {
     "markdown.markdownItPlugins": true
   },
@@ -34,6 +34,6 @@
     "@types/vscode": "^1.33.0"
   },
   "dependencies": {
-    "markdown-it-emoji": "^2.0.0"
+    "markdown-it-container": "^3.0.0"
   }
 }
