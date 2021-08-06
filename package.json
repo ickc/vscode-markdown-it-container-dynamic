@@ -14,10 +14,10 @@
   "publisher": "bierner",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/mjbvz/vscode-markdown-emoji.git"
+    "url": "https://github.com/ickc/vscode-markdown-emoji.git"
   },
   "bugs": {
-    "url": "https://github.com/mjbvz/vscode-markdown-emoji/issues"
+    "url": "https://github.com/ickc/vscode-markdown-emoji/issues"
   },
   "engines": {
     "vscode": "^1.33.0"
